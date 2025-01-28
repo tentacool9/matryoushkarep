@@ -3,25 +3,12 @@
 This repository contains a Jupyter notebook that compares a native CNN and an MRL-CNN across 50 experiments, analyzing performance, robustness, and interpretability.
 
 ## Overview
-The study conducts 50 experiments to evaluate:
-Accuracy/loss metrics on MNIST/CIFAR-10.
-Class-wise cosine similarity of embeddings.
-Grad-CAM feature importance maps.
-Robustness against MNIST-C corruptions.
-Eigenvalue distributions of linear layers.
 
-## Key Features
-
-* 50 trials with statistical reporting (mean/variance).
-
-* Cosine similarity analysis of intra/inter-class embeddings.
-
-* Visual comparison of Grad-CAM attention regions.
-
-* MNIST-C corruption tests (noise, blur, rotation).
-
-* Eigenvalue diagnostics for layer stability.
-
+*Accuracy/loss metrics on MNIST/CIFAR-10.
+*Class-wise cosine similarity of embeddings.
+*Grad-CAM feature importance maps.
+*Robustness against MNIST-C corruptions.
+*Eigenvalue distributions of linear layers.
 ---
 Matryoshka Representation Learning: https://arxiv.org/abs/2205.13147
 
